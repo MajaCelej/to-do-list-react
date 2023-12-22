@@ -14,7 +14,7 @@ const Buttons = ({tasks, hideDoneTasks}) => {
               className="task__markAllDone"
               disabled={tasks.every(({ done }) => done)}
             >
-            Oznacz wszystkie zadania jako ukończone
+              Oznacz wszystkie zadania jako ukończone
             </button>`
         </div>
     )
