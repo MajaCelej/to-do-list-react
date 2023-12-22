@@ -1,10 +1,10 @@
-.task__newButtons {
+.button__newButtons {
     display: flex;
     flex-wrap: wrap;
 }
 
 @media (max-width: 992px) {
-    .task__hideOrShowAllDone {
+    .button__hideOrShowAllDone {
         display: flex;
         flex-basis: 100%;
         justify-content: center;
@@ -12,19 +12,19 @@
     };
 }
 
-.task__hideOrShowAllDone {
+.button__hideOrShowAllDone {
     background: transparent;
     border: none;
     color: teal;
     transition: 1s;
 }
 
-.task__hideOrShowAllDone:hover {
+.button__hideOrShowAllDone:hover {
     color: rgb(0, 179, 179)
 }
 
 @media (max-width: 992px) {
-    .task__markAllDone {
+    .button__markAllDone {
         display: flex;
         flex-basis: 100%;
         justify-content: center;
@@ -32,17 +32,17 @@
     };
 }
 
-.task__markAllDone {
+.button__markAllDone {
     background: transparent;
     border: none;
     color: teal;
     transition: 1s;
 }
 
-.task__markAllDone:hover {
+.button__markAllDone:hover {
     color: rgb(0, 179, 179)
 }
 
-.task__markAllDone:disabled {
+.button__markAllDone:disabled {
     color: rgb(202, 202, 202);
 }
