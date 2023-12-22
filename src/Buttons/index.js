@@ -21,5 +21,3 @@ const Buttons = ({tasks, hideDoneTasks}) => {
 };
 
 export default Buttons;
-
-// film skończyłam na 28
